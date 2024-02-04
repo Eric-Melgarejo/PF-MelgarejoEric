@@ -490,12 +490,15 @@
     .introproduct{
         background-image: url(../assets/img/INTROPRODUCTS.jpg);
         width: auto;
-        height: 250px;
+        height: 290px;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 50%;
         h1{
             font-size: 20px;
+            text-align: center;
+            padding-left: 55px;
+            padding-right: 55px;
             color: black;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             display: flex;
@@ -523,20 +526,15 @@
     .col{
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     text-decoration: none;
-     color: #000000;
-        height: 120px;
+        text-decoration: none;
+        color: #000000;
+        height: 350px;
         width: auto;
-        display: flex;
-        flex-direction: column;
         background-repeat: no-repeat;
         background-size: contain;
-        justify-content: center;
-        align-items: center;
-        margin-left: 10px;
-        margin-right: 10px;
-
-    }
+        padding-bottom: 0px;
+    
+        }
     .Catalogo{
         background-image: url(../assets/img/GAMING.jpg);
         background-repeat: no-repeat;
@@ -545,33 +543,36 @@
     }
     .titulocolum{
         color: white;
-        font-size: 9px;
-        padding: 0px;
+        font-size: 18px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
     .textocolum{
         color: white;
-        font-size: 9px;
+        font-size: 15px;
         padding: 0px;
     }
 
     .titulocolum2{
         color: black;
-        font-size: 9px;
+        font-size: 20px;
         padding: 0px;
     }
         .textocolum2{
         color: black;
-        font-size: 9px;
+        font-size: 15px;
         padding: 0px;
     }
     .boton{
-    font-size: 8px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border-radius: 10px;
-    border: 8px solid black;
-    color: white;
-    background-color: black;
-    box-shadow: -2px 2px 40px white;
+        font-size: 25px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border: 2px solid rgb(0, 0, 0);
+        color: black;
+        background-color: white;
+        box-shadow: -2px 2px 40px white;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     &:hover {
@@ -583,13 +584,14 @@
    
     
     .botoncontacto{
-        font-size: 8px;
-        margin-top: 10px;
+        font-size: 25px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         border-radius: 10px;
-        border: 7px solid black;
-        color: white;
-        background-color: black;
+        padding-left: 8px;
+        padding-right: 8px;
+        border: 2px solid rgb(0, 0, 0);
+        color: black;
+        background-color: white;
         box-shadow: -2px 2px 40px white;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;
@@ -599,6 +601,7 @@
         }
     
     }
+    
     
 
 

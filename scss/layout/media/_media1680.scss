@@ -164,7 +164,7 @@
         flex-direction: row;
         .card{
             width: 300px;
-            height: 500px;
+            height: 550px;
             background-color: white;
             text-align: center;
             border: 1px solid rgba(0, 0, 0, 0.278);
@@ -518,13 +518,14 @@
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      text-decoration: none;
+     background-color: rgb(179, 179, 179);
      color: #000000;
         height: 400px;
         width: auto;
         display: flex;
         flex-direction: column;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         justify-content: center;
         align-items: center;
         margin-left: 20px;
@@ -562,9 +563,11 @@
     font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10px;
-    border: 8px solid black;
-    color: white;
-    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
     box-shadow: -2px 2px 40px white;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
@@ -581,9 +584,11 @@
         margin-top: 10px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         border-radius: 10px;
-        border: 7px solid black;
-        color: white;
-        background-color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        border: 1px solid black;
+        color: black;
+        background-color: white;
         box-shadow: -2px 2px 40px white;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;

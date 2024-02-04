@@ -1,21 +1,21 @@
-@media (max-width: 768px){
+@media (max-width: 875px){
     header{
         background-color:map-get($color, color1);
         width: 100%;
-        height: 300px;
+        height: 240px;
     nav{
         
         .enlinea{
             display: flex;
             justify-content: flex-end;
             gap: 2rem;
-            padding-right: 80px;
-            padding-top: 260px;
+            padding-right: 60px;
+            padding-top: 100px;
             li{
                 list-style: none;
                 a{
                     text-decoration: none;
-                    font-size: larger;
+                    font-size: 17px;
                     color: map-get($color, color2);
                     text-transform: uppercase;
                     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -26,10 +26,10 @@
     }
     
     .Logoheader{
-        width: 320px;
+        width: 220px;
         height: auto;
-        padding-left: 100px;
-        left: 160px;
+        padding-left: 10px;
+        left: 10px;
         position: absolute;
         padding-top: 15px;
     
@@ -60,7 +60,7 @@
    
     
     .supermario{
-        width: 600px; /* Ajusta el ancho de tu logo según tus necesidades */
+        width: 700px; /* Ajusta el ancho de tu logo según tus necesidades */
         height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
         position: relative;
         z-index: 2; /* Asegura que el logo esté superpuesto sobre el fondo */
@@ -82,7 +82,7 @@
         text-align: center;
         font-size: 3em;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding-right: 95px; 
+        padding-right: 140px; 
       margin-left: 0px;
     }
     }
@@ -102,7 +102,7 @@
     height: auto; 
     position: absolute;
     left: 35%;
-    top: 190%;
+    top: 185%;
     z-index: 2;  
     }
     .seccion-con-imagen2{
@@ -133,7 +133,7 @@
     }
     
     .nintendo{
-    width: 700px; /* Ajusta el ancho de tu logo según tus necesidades */
+    width: 800px; /* Ajusta el ancho de tu logo según tus necesidades */
     height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
     position: absolute;
     left: 5%;
@@ -458,7 +458,7 @@
 
     .mapa{
     background-color: white;
-    height: 400px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -486,7 +486,7 @@
         height: auto; 
         position: absolute;
         right: 5%;
-        top: 255%;
+        top: 210%;
         z-index: 2;
     }
 
@@ -619,32 +619,32 @@
 
 
     .Logofooter{
-        width: 320px;
+        width: 200px;
         height: auto;
-        padding-left: 100px;
-        left: 160px;
+        padding-left: 20px;
+        left: 20px;
         position: absolute;
-        padding-top: 5px;
+        padding-top: 15px;
     
     }
     
     .piedepagina1{
         background-color: rgb(0, 0, 0);
         width: 100%;
-        height: 300px;
+        height: 200px;
     nav{
         
         .navbarfooter{
             display: flex;
             justify-content: flex-end;
             gap: 32px;
-            padding-right: 100px;
-            padding-top: 250px;
+            padding-right: 30px;
+            padding-top: 85px;
             li{
                 list-style: none;
                 a{
                     text-decoration: none;
-                    font-size: larger;
+                    font-size: 25;
                     color: map-get($color, color2);
                     text-transform: uppercase;
                     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -663,8 +663,10 @@
     }
     
     .desarrolladopor p{
-        font-size: 30px;
-        padding-top: 10px;
+        font-size: 20px;
+        padding-top: 0px;
+        align-items: center;
+        justify-content: center;
         color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }

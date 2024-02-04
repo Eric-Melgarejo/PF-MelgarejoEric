@@ -1,16 +1,16 @@
-@media (max-width: 768px){
+@media (max-width: 1175px){
     header{
         background-color:map-get($color, color1);
         width: 100%;
-        height: 300px;
+        height: 250px;
     nav{
         
         .enlinea{
             display: flex;
             justify-content: flex-end;
-            gap: 2rem;
-            padding-right: 80px;
-            padding-top: 260px;
+            gap: 3rem;
+            padding-right: 40px;
+            padding-top: 110px;
             li{
                 list-style: none;
                 a{
@@ -26,12 +26,11 @@
     }
     
     .Logoheader{
-        width: 320px;
+        width: 270px;
         height: auto;
-        padding-left: 100px;
-        left: 160px;
+        padding-left: 30px;
         position: absolute;
-        padding-top: 15px;
+        padding-top: 10px;
     
     }
     .seccion-con-imagen{
@@ -60,93 +59,89 @@
    
     
     .supermario{
-        width: 600px; /* Ajusta el ancho de tu logo según tus necesidades */
+        width: 780px; /* Ajusta el ancho de tu logo según tus necesidades */
         height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
         position: relative;
         z-index: 2; /* Asegura que el logo esté superpuesto sobre el fondo */
-        left: 80px;
-        top: 175px;
+        left: 120px;
+        top: 165px;
         
     }
     .seccion-con-imagen1{
-        height: 1000px; /* Establece la altura de la sección al 100% del viewport height */
+        height: 700px; /* Establece la altura de la sección al 100% del viewport height */
        background-image: url(../assets/img/fondo1.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
         background-size: cover;
         display: flex;
     flex-direction: column;
     background-position: center;
-    justify-content: start;
+    justify-content: center;
     align-items: end;
     .titulo1{
         color: map-get($color, color2);
-        text-align: center;
+        text-align: right;
         font-size: 3em;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        padding-right: 95px; 
+        padding-right: 60px; 
       margin-left: 0px;
     }
     }
    
     .texto1{
         color: white;
-    text-align: center;
+    text-align: right;
     font-size: 2em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      padding-right: 60px; 
-      margin-left: 50px;
+      padding-right: 20px; 
+      margin-left: 400px;
       padding-top: 50px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .jefemaestro{
-       width: 230px; 
+       width: 250px; 
     height: auto; 
     position: absolute;
-    left: 35%;
-    top: 190%;
+    left: 10%;
     z-index: 2;  
     }
     .seccion-con-imagen2{
-        height: 530px; /* Establece la altura de la sección al 100% del viewport height */
+        height: 200px; /* Establece la altura de la sección al 100% del viewport height */
    background-color: black;
     display: flex;
     flex-direction: column;
     color: map-get($color, color2);
     background-position: center;
-    justify-content: start;
-    align-items: center;
-    font-size: 3em;
+    justify-content: flex-start;
+    align-items: start;
+    font-size: 4em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      padding-left: 0px; 
-      padding-top: 20px;
+      padding-left: 60px; 
       z-index: 2;
           .texto2{
         color: map-get($color, color2);
-            text-align: center;
+            text-align: left;
+            padding-top: 10px;
             font-size: 25px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            padding-left: 150px; 
-              margin-right: 150px;  
-              padding-top: 20px;
-            z-index: 2;
+              padding-left: 0px; 
+              margin-right: 600px;
+              z-index: 2;
     }
          
     }
     
     .nintendo{
-    width: 700px; /* Ajusta el ancho de tu logo según tus necesidades */
+    width: 445px; /* Ajusta el ancho de tu logo según tus necesidades */
     height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
     position: absolute;
-    left: 5%;
-    top: 290%;
-
+    left: 56%;
     z-index: 0; /* Asegura que el logo esté superpuesto sobre el fondo */
 }
    
     
     .titulodeentrada{
         color: white;
-        padding-top: 40px;
-        padding-bottom: 60px ;
+        padding-top: 30px;
+        padding-bottom: 30px ;
      background-color: black;
      position: relative;
      font-family: Sansation;
@@ -158,7 +153,7 @@
      flex-direction: row;
      background-position: center;
      justify-content: center;
-     align-items: center;
+     align-items: start;
       
     }
     
@@ -170,7 +165,7 @@
         flex-direction: row;
         .card{
             width: 300px;
-            height: 500px;
+            height: 550px;
             background-color: white;
             text-align: center;
             border: 1px solid rgba(0, 0, 0, 0.278);
@@ -215,7 +210,6 @@
     }
     
     .entrada2{
-        display: none;
         box-shadow: -2px 2px 40px rgb(255, 37, 37);
         order: 2;
         align-self: flex-start;
@@ -253,7 +247,7 @@
     
     .espacio{
         background-color: black;
-        height: 80px;
+        height: 30px;
     
     }
 
@@ -278,53 +272,42 @@
     }
     
     .nosotros2 {
-        height: 950px;
+        height: 850px;
         background-image: url(../assets/img/fondo1.png);/* Cambia 'ruta/de/tu/imagen.jpg' por la ruta real de tu imagen */
         background-size: cover;
         background-repeat: no-repeat;
         p{
-            font-size: 25px;
+            font-size: 20px;
             color: white;
-            text-align: center;
+            text-align: left;
         padding-left: 50px;
-        padding-right: 50px;
+        padding-right: 500px;
         padding-top: 45px;
             
         }
-
-        .nomovil{
-            display: none;
-            
-        }
-        .nomovil2{
-            display: none;
-        }
-        
-
     }
     section .uss{
-        width: 230px; 
+        width: 300px; 
     height: auto; 
     position: absolute;
-    left: 10%;
+    left: 70%;
     z-index: 2; 
-    margin-top: 480px;
+    margin-top: 230px;
     }
     section .ezioo{
-        width: 250px; 
+        width: 300px; 
         height: auto; 
         position: absolute;
         left: 55%;
-        margin-top: 500px;
+        margin-top: 170px;
         z-index: 3; 
     }
     section .codd{
-        display: none;
-        width: 450px; 
+        width: 310px; 
     height: auto; 
     position: absolute;
     left: 65%;
-    margin-top: 435px;
+    margin-top: 500px;
     z-index: 3; 
     }
 
@@ -338,10 +321,10 @@
         p{
             color: white;
             text-shadow: 5px 5px 4px black;
-            font-size: 38px;
+            font-size: 42px;
             font-family: jomhuria;
-              padding-left: 20px;
-              padding-right: 20px;
+              padding-left: 50px;
+              padding-right: 50px;
               padding-top: 30px;
               padding-bottom: 0px;
               text-align: center;
@@ -368,7 +351,7 @@
     
 
     .bayo{
-        width: 150px; 
+        width: 200px; 
     height: auto; 
     position: absolute;
     left: 5%;
@@ -378,10 +361,10 @@
     }
     
     .Dmc{
-        width: 150px; 
+        width: 200px; 
     height: auto; 
     position: absolute;
-    right: 5%;
+    right: 3%;
     padding-top: 50px;
     z-index: 2;
     }
@@ -401,6 +384,7 @@
     
     .clickaqui{
         color: red;
+        text-decoration: none;
         text-transform: uppercase;
         text-align: center;
         font-size: 80px;
@@ -426,8 +410,8 @@
         border-radius: 10px;
         box-shadow: 0 0 20px rgb(247, 243, 243);
         padding: 2%;
-        width: 400px;
-        height: 500px;
+        width: 300px;
+        height: 550px;
         margin: 4%;
         h2{
             text-align: center;
@@ -458,7 +442,7 @@
 
     .mapa{
     background-color: white;
-    height: 400px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -482,11 +466,11 @@
     }
     
     .micasaa{
-        width: 280px; 
+        width: 320px; 
         height: auto; 
         position: absolute;
-        right: 5%;
-        top: 255%;
+        right: 13%;
+        top: 210%;
         z-index: 2;
     }
 
@@ -494,8 +478,8 @@
 
     .Productos{
         width: 80%; 
-    margin-left: 80px;
-    padding-top: 260px;
+    margin-left: 100px;
+    padding-top: 200px;
         
     } 
     .introproduct{
@@ -518,30 +502,35 @@
     }
     
     .introproduct p{
-        font-size: 22px;
+        font-size: 25px;
         color: black;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         text-align: center;
         padding-top: 30px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
     section .container{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     
     .col{
-       border: 1px solid black;
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      text-decoration: none;
      color: #000000;
-        height: 160px;
+        height: 300px;
+        width: auto;
+        display: flex;
+        background-position: center;
+        flex-direction: column;
         background-repeat: no-repeat;
         background-size: cover;
-        margin-left: 10px;
-        margin-right: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
 
     }
     .Catalogo{
@@ -552,29 +541,27 @@
     }
     .titulocolum{
         color: white;
-        font-size: 15px;
-   
+        font-size: 20px;
+        padding: 0, 10;
     }
     .textocolum{
         color: white;
-        font-size: 13px;
-        padding: 0;
+        font-size: 20px;
+        padding: 0, 10;
     }
 
     .titulocolum2{
         color: black;
-        font-size: 15px;
-        padding: 0;
-        
+        font-size: 20px;
+        padding: 0, 10;
     }
         .textocolum2{
         color: black;
-        font-size: 13px;
-        padding: 0;
-       
+        font-size: 20px;
+        padding: 0, 10;
     }
     .boton{
-    font-size: 13px;
+    font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 10px;
     padding-left: 10px;
@@ -594,16 +581,15 @@
    
     
     .botoncontacto{
-        font-size: 15px;
-        margin-top: 5px;
-        padding: 0px;
+        font-size: 25px;
+        margin-top: 10px;
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         border-radius: 10px;
         padding-left: 10px;
-        padding-right: 10px;
-        border: 1px solid black;
-        color: black;
-        background-color: white;
+    padding-right: 10px;
+    border: 1px solid black;
+    color: black;
+    background-color: white;
         box-shadow: -2px 2px 40px white;
         cursor: pointer;
         transition: background-color 0.3s, color 0.3s;
@@ -619,27 +605,26 @@
 
 
     .Logofooter{
-        width: 320px;
+        width: 260px;
         height: auto;
-        padding-left: 100px;
-        left: 160px;
+        padding-left: 30px;
         position: absolute;
-        padding-top: 5px;
+        padding-top: 15px;
     
     }
     
     .piedepagina1{
         background-color: rgb(0, 0, 0);
         width: 100%;
-        height: 300px;
+        height: 250px;
     nav{
         
         .navbarfooter{
             display: flex;
             justify-content: flex-end;
-            gap: 32px;
-            padding-right: 100px;
-            padding-top: 250px;
+            gap: 3rem;
+            padding-right: 60px;
+            padding-top: 110px;
             li{
                 list-style: none;
                 a{
@@ -657,14 +642,14 @@
    
     
     .desarrolladopor{
-    height: 50px;
+    height: 80px;
     background-color: black;
     
     }
     
     .desarrolladopor p{
         font-size: 30px;
-        padding-top: 10px;
+        padding-top: 15px;
         color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
